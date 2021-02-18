@@ -1,0 +1,27 @@
+.loginscreen {
+	position: relative;
+	height: 80px;
+}
+.loginscreen__background {
+}
+.loginscreen__logo {
+	position: fixed;
+	left: 0;
+	width: 150px;
+	object-fit: contain;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.loginscreen__button {
+	position: fixed;
+	right: 20;
+	top: 20;
+	font-size: 1rem;
+	color: white;
+	background-color: #e50914;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+	align-self: flex-end;
+}
