@@ -49,6 +49,8 @@
 	width: 100%;
 	align-content: center;
 	text-align: center;
+	right: 0%;
+	left: 0%;
 }
 .our-story-card-title {
 	font-size: 3.125rem;

@@ -1,0 +1,48 @@
+.signup__screen {
+	max-width: 400px;
+	padding: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(0, 0, 0, 0.8);
+}
+.signup__screen > form {
+	display: flex;
+	flex-direction: column;
+}
+.signup__screen > h1 {
+}
+.new_netflix {
+	color: gray;
+}
+.signp_link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.email_field {
+	padding: 10px;
+	outline-width: 0px;
+	height: 40px;
+	margin-bottom: 15px;
+	border: none;
+	padding: 5px 15px;
+	margin-top: 20px;
+}
+.password_field {
+	padding: 10px;
+	outline-width: 0px;
+	height: 40px;
+	margin-bottom: 15px;
+	border: none;
+	padding: 5px 15px;
+}
+.submit_button {
+	color: #fff;
+	background-color: #e50914;
+	padding: 10px 20px 10px;
+	font-size: 1.625rem;
+	min-height: 60px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
