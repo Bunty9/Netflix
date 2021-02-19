@@ -1,8 +1,23 @@
 .loginscreen {
 	position: relative;
-	height: 80px;
+	height: 100%;
+	background: url(https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg)
+		center no-repeat;
+	background-size: cover;
 }
 .loginscreen__background {
+}
+.loginscreen__gradient {
+	width: 100%;
+	z-index: 1;
+	height: 100vh;
+	background: rgb(0, 0, 0, 0.4);
+	background-image: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.8) 0,
+		rgba(0, 0, 0, 0) 60%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
 }
 .loginscreen__logo {
 	position: fixed;
@@ -14,8 +29,8 @@
 }
 .loginscreen__button {
 	position: fixed;
-	right: 20;
-	top: 20;
+	right: 20px;
+	top: 20px;
 	font-size: 1rem;
 	color: white;
 	background-color: #e50914;
@@ -24,4 +39,64 @@
 	cursor: pointer;
 	font-weight: 600;
 	align-self: flex-end;
+}
+.loginscreen__body {
+	z-index: 1;
+	padding: 10px;
+	color: white;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	align-content: center;
+	text-align: center;
+}
+.our-story-card-title {
+	font-size: 3.125rem;
+	line-height: 1.1;
+	max-width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.our-story-card-subtitle {
+	font-size: 1.625rem;
+	margin: 1rem auto;
+	max-width: 640px;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.email-form-title {
+	max-width: none;
+	padding-bottom: 20px;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	font-weight: 400;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+.nfTextField {
+	max-width: 450px;
+	padding: 10px 20px 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #000;
+	font-size: 1.625rem;
+	font-weight: 400;
+	min-height: 60px;
+}
+.input_button {
+	color: #fff;
+	background-color: #e50914;
+	padding: 10px 20px 10px;
+	font-size: 1.625rem;
+	min-height: 60px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: none;
+	cursor: pointer;
 }
