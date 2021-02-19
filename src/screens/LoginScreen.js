@@ -26,7 +26,7 @@ function LoginScreen() {
                     <h3 className="email-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
                     <div className="loginscreen__input">
                         <form>
-                        <input type="email" className="nfTextField" autocomplete="email" placeholder='Email address'/>
+                        <input type="email" className="nfTextField" autoComplete="email" placeholder='Email address'/>
                         <button type="submit" className='input_button' onClick={()=>setsignIn(true)}>
                             Get Started
                         </button>
