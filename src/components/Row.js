@@ -46,7 +46,7 @@ function Row({ title, fetchUrl,isLargeRow }) {
           setTrailerUrl(trailerurl.data.results[0]?.key);
     }
     };
-    console.log(trailerUrl);
+    // console.log(trailerUrl);
 
     return (
         <div className ="row">
