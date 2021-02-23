@@ -46,3 +46,11 @@
 	cursor: pointer;
 	margin-top: 20px;
 }
+.profilescreens__plans {
+	margin-top: 20px;
+    
+}
+.profilescreens__plans > h3 {
+	border-bottom: 1px solid #282c2d;
+	padding-bottom: 10px;
+}

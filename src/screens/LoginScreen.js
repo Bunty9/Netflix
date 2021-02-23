@@ -14,7 +14,7 @@ function LoginScreen() {
                 alt="Netflix Logo"
                 />
           
-                <button className = 'loginscreen__button'>Sign In</button>
+                <button className = 'loginscreen__button' onClick={()=>setsignIn(true)}>Sign In</button>
                <div className = 'loginscreen__gradient'/>
                <div className = 'loginscreen__body'>
                {signIn ? (

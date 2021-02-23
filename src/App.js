@@ -27,6 +27,7 @@ function App() {
         // console.log(userAuth)
       }else{
         //logged out
+        console.log('logged out')
         dispatch(logout());
       }
     })
