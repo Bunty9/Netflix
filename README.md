@@ -8,7 +8,7 @@
 ## Demo
 
 this app is currently hosted using firebase:
-[Netflix](https://netflixx-420.web.app/)
+[Netflix](https://netflix-bunty9.vercel.app/)
 
 ## Author
 [Bipin S C (Bunty9)](https://github.com/Bunty9)
